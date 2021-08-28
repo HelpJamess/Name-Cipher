@@ -22,8 +22,8 @@ def cipher(string, shift):
   encryptedString = listToStr(newString)
   return encryptedString
 
-userInName = input("Enter the phrase you want to ")
-userInShift = int(input("Enter the number of shifts you want the name to go through"))
+userInName = input("Enter the phrase you want to ") # Jamess
+userInShift = int(input("Enter the number of shifts you want the name to go through")) # Guess
 
 cryptName = cipher(userInName, userInShift)
 print(cryptName)
